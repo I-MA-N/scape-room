@@ -1,11 +1,8 @@
-:root {
-   --text-color: #61677A;
-   --back-color: #000000;
-}
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
 
-@font-face {
-   font-family: "Fetne";
-   src: url("assets/fonts/Fetne.ttf");
+:root {
+   --text-color: #000000;
+   --back-color: #EEEEEE;
 }
 
 * {
@@ -17,7 +14,7 @@
 body {
    background-color: var(--back-color);
    color: var(--text-color);
-   font-family: "Fetne";
+   font-family: "Almarai";
    overflow: hidden;
 }
 
@@ -47,7 +44,7 @@ p {
    z-index: -5;
    top: 0;
    left: 0;
-   background-color: #EEEEEE;
+   background-color: var(--back-color);
    opacity: 0.2;
    width: 100%;
    height: 100%;
